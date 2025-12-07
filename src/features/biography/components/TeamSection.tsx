@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import kimImage from '@/assets/images/kim-4.jpg';
-import laTeam2 from '@/assets/images/la-team-2.jpeg';
+import laTeam2 from '@/assets/images/la-team-avec-public.jpeg';
 import { ImageLightbox } from '@/common/components/ImageLightbox';
 
 export const TeamSection = () => {
