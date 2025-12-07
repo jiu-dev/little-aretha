@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "biography": "Biografía",
+    "technical": "Técnica",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Tribute to the Queen of Soul",
+      "title1": "Little",
+      "title2": "Aretha",
+      "description": "Un vibrante homenaje a la Reina del Soul, llevado por 11 músicos apasionados y una energía contagiosa.",
+      "cta": "Descubrir el espectáculo"
+    },
+    "intro": {
+      "label": "El espectáculo",
+      "title1": "Más que un homenaje,",
+      "title2": "una celebración",
+      "description1": "Little Aretha es mucho más que un simple homenaje a la Reina del Soul: es una experiencia musical y emocional llevada por 11 músicos y coristas, una cantante con una personalidad radiante, una sección de metales explosiva y un groove irresistible que hace vibrar al público desde las primeras notas.",
+      "description2": "Nacido de una historia de transmisión familiar, Little Aretha rinde homenaje a la inmensa obra de Aretha Franklin aportando una identidad escénica moderna, personal y vibrante.",
+      "cta": "Descubrir nuestra historia"
+    },
+    "gallery": {
+      "label": "En concierto",
+      "title1": "En el",
+      "title2": "escenario",
+      "description": "Una energía contagiosa, una alquimia humana y el placer de tocar juntos hacen de cada concierto un momento único."
+    },
+    "video": {
+      "label": "En acción",
+      "title1": "El espectáculo en",
+      "title2": "vídeo",
+      "description": "Descubre la energía y la pasión de Little Aretha en el escenario.",
+      "play": "Ver el vídeo"
+    },
+    "cta": {
+      "title1": "¿Listo para vibrar al son del",
+      "title2": "Soul",
+      "description": "Contáctanos para organizar un concierto inolvidable.",
+      "button": "Contáctanos"
+    }
+  },
+  "biography": {
+    "hero": {
+      "label": "Biografía",
+      "title1": "Nuestra",
+      "title2": "Historia",
+      "description": "Un homenaje vibrante. Un compartir. Una celebración."
+    },
+    "project": {
+      "label": "Génesis",
+      "title1": "El",
+      "title2": "Proyecto",
+      "description1": "Little Aretha es mucho más que un simple homenaje a la Reina del Soul: es una",
+      "highlight1": "experiencia musical y emocional",
+      "description2": "llevada por 11 músicos y coristas, una cantante con una personalidad radiante, una sección de metales explosiva y un groove irresistible que hace vibrar al público desde las primeras notas.",
+      "description3": "Nacido de una",
+      "highlight2": "historia de transmisión familiar",
+      "description4": "– la de Thierry Le Gall (batería/percusionista) y su hijo Nolan Le Gall, iniciador y co-creador del proyecto – Little Aretha rinde homenaje a la inmensa obra de Aretha Franklin aportando una identidad escénica moderna, personal y vibrante.",
+      "description5": "No se trata de copiar, sino de",
+      "highlight3": "reinterpretar con respeto, pasión y una energía contagiosa"
+    },
+    "experience": {
+      "label": "El show",
+      "title1": "La",
+      "title2": "Experiencia",
+      "description": "Una inmersión rara, casi cinematográfica, que permite al público comprender y sentir profundamente el legado de esta artista excepcional.",
+      "feature1Title": "Colectivo de excelencia",
+      "feature1Description": "Artistas que han colaborado con grandes nombres de la escena francesa e internacional, habiendo participado en The Voice, Nulle Part Ailleurs o grandes giras.",
+      "feature2Title": "Viaje narrativo",
+      "feature2Description": "Entre algunas canciones, una voz cuenta la historia de Aretha Franklin: los momentos clave de su carrera, los orígenes de ciertas canciones, las luchas, las alegrías, las inspiraciones.",
+      "feature3Title": "Experiencia visual",
+      "feature3Description": "Una pantalla al fondo del escenario proyecta fotos, vídeos y archivos de Aretha Franklin, ofreciendo una dimensión sensible y elegante a este viaje musical."
+    },
+    "team": {
+      "label": "Los artistas",
+      "title1": "El",
+      "title2": "Equipo",
+      "description1": "En escena, el equipo – compuesto por artistas que han colaborado con grandes nombres de la escena francesa e internacional – forma un verdadero",
+      "highlight1": "colectivo de excelencia",
+      "description2": "La alquimia humana, la precisión musical y el placer de tocar juntos hacen de cada concierto un",
+      "highlight2": "momento único",
+      "description3": "El público redescubre los mayores éxitos de Aretha – del gospel al soul, del R&B a los momentos más intensos de su carrera – en una versión",
+      "highlight3": "potente, encarnada y unificadora"
+    },
+    "quote": {
+      "word1": "Un homenaje",
+      "highlight1": "vibrante",
+      "word2": "Un",
+      "highlight2": "compartir",
+      "word3": "Una",
+      "highlight3": "celebración",
+      "description": "Después de un estreno con entradas agotadas en el Centro Cultural de Dourdan, recibido con entusiasmo, Little Aretha se prepara ahora para ir al encuentro del público en toda Francia y más allá."
+    }
+  },
+  "technical": {
+    "hero": {
+      "label": "Profesionales",
+      "title1": "Ficha",
+      "title2": "Técnica",
+      "description": "Todo lo necesario para recibir el show"
+    },
+    "documents": {
+      "label": "Documentos",
+      "title1": "Fichas",
+      "title2": "técnicas",
+      "description": "Descarga los documentos necesarios para la preparación técnica del espectáculo.",
+      "stagePlan": {
+        "title": "Plano de escenario",
+        "description": "Disposición de los músicos en el escenario para una configuración óptima del espectáculo."
+      },
+      "lightingPlan": {
+        "title": "Plano de iluminación",
+        "description": "Configuración de la iluminación para realzar el ambiente del concierto."
+      },
+      "soundPatch": {
+        "title": "Patch de sonido",
+        "description": "Lista de micrófonos y configuración de audio necesarios para la actuación."
+      },
+      "view": "Consultar",
+      "download": "Descargar",
+      "generating": "Generando...",
+      "downloadPdf": "Descargar en PDF",
+      "generatingPdf": "Generando..."
+    },
+    "info": {
+      "label": "En resumen",
+      "title1": "Información",
+      "title2": "práctica",
+      "duration": {
+        "label": "Duración del espectáculo",
+        "value": "~1h30"
+      },
+      "formation": {
+        "label": "Formación",
+        "value": "11 músicos + 1 cantante"
+      },
+      "stage": {
+        "label": "Escenario mínimo",
+        "value": "10m x 8m"
+      },
+      "contact": {
+        "title": "Contacto técnico",
+        "description": "Para cualquier pregunta técnica o solicitud de información adicional"
+      }
+    },
+    "soundPatch": {
+      "title": "Sound Patch",
+      "subtitle": "Ficha Técnica",
+      "drums": "Batería",
+      "percussion": "Percusión",
+      "instruments": "Instrumentos",
+      "brass": "Metales",
+      "vocals": "Voces",
+      "source": "Fuente",
+      "microphone": "Micrófono",
+      "qty": "Cant",
+      "wedges": "Monitores de escenario",
+      "wedgesValue": "11/12",
+      "wedgesLabel": "Wedges",
+      "contact": "Contacto"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contáctanos",
+      "title1": "Mantengamos el",
+      "title2": "contacto",
+      "description": "Para cualquier solicitud de reserva, colaboración o información"
+    },
+    "direct": {
+      "label": "Contacto directo",
+      "title": "Escríbenos"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Teléfono"
+    },
+    "social": {
+      "label": "Síguenos",
+      "title": "En las redes"
+    }
+  },
+  "footer": {
+    "description": "Un vibrante homenaje a la Reina del Soul, llevado por 11 músicos apasionados.",
+    "navigation": "Navegación",
+    "followUs": "Síguenos",
+    "contact": "Contacto",
+    "copyright": "© {{year}} Little Aretha. Todos los derechos reservados.",
+    "language": "Idioma"
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "close": "Cerrar",
+    "enlargeImage": "Ampliar imagen"
+  }
+}

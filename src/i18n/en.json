@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Home",
+    "biography": "Biography",
+    "technical": "Technical",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Tribute to the Queen of Soul",
+      "title1": "Little",
+      "title2": "Aretha",
+      "description": "A vibrant tribute to the Queen of Soul, carried by 11 passionate musicians and contagious energy.",
+      "cta": "Discover the show"
+    },
+    "intro": {
+      "label": "The show",
+      "title1": "More than a tribute,",
+      "title2": "a celebration",
+      "description1": "Little Aretha is much more than a simple tribute to the Queen of Soul: it's a musical and emotional experience carried by 11 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
+      "description2": "Born from a story of family transmission, Little Aretha pays tribute to Aretha Franklin's immense body of work while bringing a modern, personal and vibrant stage identity.",
+      "cta": "Discover our story"
+    },
+    "gallery": {
+      "label": "In concert",
+      "title1": "On",
+      "title2": "stage",
+      "description": "Contagious energy, human chemistry and the pleasure of playing together make each concert a unique moment."
+    },
+    "video": {
+      "label": "In action",
+      "title1": "The show on",
+      "title2": "video",
+      "description": "Discover the energy and passion of Little Aretha on stage.",
+      "play": "Watch the video"
+    },
+    "cta": {
+      "title1": "Ready to vibrate to the sound of",
+      "title2": "Soul",
+      "description": "Contact us to organize an unforgettable concert.",
+      "button": "Contact us"
+    }
+  },
+  "biography": {
+    "hero": {
+      "label": "Biography",
+      "title1": "Our",
+      "title2": "Story",
+      "description": "A vibrant tribute. A sharing. A celebration."
+    },
+    "project": {
+      "label": "Genesis",
+      "title1": "The",
+      "title2": "Project",
+      "description1": "Little Aretha is much more than a simple tribute to the Queen of Soul: it's a",
+      "highlight1": "musical and emotional experience",
+      "description2": "carried by 11 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
+      "description3": "Born from a",
+      "highlight2": "story of family transmission",
+      "description4": "– that of Thierry Le Gall (drummer/percussionist) and his son Nolan Le Gall, initiator and co-creator of the project – Little Aretha pays tribute to Aretha Franklin's immense body of work while bringing a modern, personal and vibrant stage identity.",
+      "description5": "It's not about copying, but about",
+      "highlight3": "reinterpreting with respect, passion and contagious energy"
+    },
+    "experience": {
+      "label": "The show",
+      "title1": "The",
+      "title2": "Experience",
+      "description": "A rare, almost cinematic immersion, allowing the audience to deeply understand and feel the legacy of this exceptional artist.",
+      "feature1Title": "Collective of excellence",
+      "feature1Description": "Artists who have collaborated with big names on the French and international scene, having appeared on The Voice, Nulle Part Ailleurs or major tours.",
+      "feature2Title": "Narrative journey",
+      "feature2Description": "Between certain songs, a voice tells the story of Aretha Franklin: the key moments of her career, the origins of certain songs, the struggles, the joys, the inspirations.",
+      "feature3Title": "Visual experience",
+      "feature3Description": "A screen at the back of the stage projects photos, videos and archives of Aretha Franklin, offering a sensitive and elegant dimension to this musical journey."
+    },
+    "team": {
+      "label": "The artists",
+      "title1": "The",
+      "title2": "Team",
+      "description1": "On stage, the team – composed of artists who have collaborated with big names on the French and international scene – forms a true",
+      "highlight1": "collective of excellence",
+      "description2": "Human chemistry, musical precision and the pleasure of playing together make each concert a",
+      "highlight2": "unique moment",
+      "description3": "The audience rediscovers Aretha's greatest hits – from gospel to soul, from R&B to the most intense moments of her career – in a",
+      "highlight3": "powerful, embodied and unifying version"
+    },
+    "quote": {
+      "word1": "A",
+      "highlight1": "vibrant",
+      "word2": "tribute. A",
+      "highlight2": "sharing",
+      "word3": "A",
+      "highlight3": "celebration",
+      "description": "After a sold-out premiere at the Dourdan Cultural Center, enthusiastically received, Little Aretha is now preparing to meet audiences throughout France and beyond."
+    }
+  },
+  "technical": {
+    "hero": {
+      "label": "Professionals",
+      "title1": "Technical",
+      "title2": "Sheet",
+      "description": "Everything you need to host the show"
+    },
+    "documents": {
+      "label": "Documents",
+      "title1": "Technical",
+      "title2": "sheets",
+      "description": "Download the documents needed to prepare the show technically.",
+      "stagePlan": {
+        "title": "Stage plan",
+        "description": "Musicians' arrangement on stage for an optimal show configuration."
+      },
+      "lightingPlan": {
+        "title": "Lighting plan",
+        "description": "Lighting configuration to enhance the concert atmosphere."
+      },
+      "soundPatch": {
+        "title": "Sound patch",
+        "description": "List of microphones and audio configuration needed for the performance."
+      },
+      "view": "View",
+      "download": "Download",
+      "generating": "Generating...",
+      "downloadPdf": "Download as PDF",
+      "generatingPdf": "Generating..."
+    },
+    "info": {
+      "label": "In brief",
+      "title1": "Practical",
+      "title2": "information",
+      "duration": {
+        "label": "Show duration",
+        "value": "~1h30"
+      },
+      "formation": {
+        "label": "Formation",
+        "value": "11 musicians + 1 singer"
+      },
+      "stage": {
+        "label": "Minimum stage",
+        "value": "10m x 8m"
+      },
+      "contact": {
+        "title": "Technical contact",
+        "description": "For any technical questions or additional information requests"
+      }
+    },
+    "soundPatch": {
+      "title": "Sound Patch",
+      "subtitle": "Technical Sheet",
+      "drums": "Drums",
+      "percussion": "Percussion",
+      "instruments": "Instruments",
+      "brass": "Brass",
+      "vocals": "Vocals",
+      "source": "Source",
+      "microphone": "Microphone",
+      "qty": "Qty",
+      "wedges": "Stage monitors",
+      "wedgesValue": "11/12",
+      "wedgesLabel": "Wedges",
+      "contact": "Contact"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contact us",
+      "title1": "Stay in",
+      "title2": "touch",
+      "description": "For any booking, collaboration or information request"
+    },
+    "direct": {
+      "label": "Direct contact",
+      "title": "Write to us"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "social": {
+      "label": "Follow us",
+      "title": "On social media"
+    }
+  },
+  "footer": {
+    "description": "A vibrant tribute to the Queen of Soul, carried by 11 passionate musicians.",
+    "navigation": "Navigation",
+    "followUs": "Follow us",
+    "contact": "Contact",
+    "copyright": "© {{year}} Little Aretha. All rights reserved.",
+    "language": "Language"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "close": "Close",
+    "enlargeImage": "Enlarge image"
+  }
+}

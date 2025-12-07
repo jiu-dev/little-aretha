@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound Patch - Little Aretha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-darker: #12100d;
+      --brand-dark: #1a1612;
+      --brand-gold: #c4a574;
+      --brand-gold-light: #d4ba8a;
+      --brand-cream: #f5f0e8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--brand-darker);
+      color: var(--brand-cream);
+      min-height: 100vh;
+      padding: 40px;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+        background: white;
+        color: #1a1612;
+      }
+
+      .page {
+        box-shadow: none !important;
+        border: none !important;
+      }
+
+      .section {
+        break-inside: avoid;
+      }
+
+      h1, h2, h3 {
+        color: #1a1612 !important;
+      }
+
+      .gold-text {
+        color: #a68b5b !important;
+      }
+
+      .table-row {
+        border-color: #ddd !important;
+      }
+    }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--brand-dark);
+      border: 1px solid rgba(196, 165, 116, 0.2);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 50px 40px 40px;
+      border-bottom: 1px solid rgba(196, 165, 116, 0.15);
+      background: linear-gradient(180deg, rgba(196, 165, 116, 0.05) 0%, transparent 100%);
+    }
+
+    .logo-placeholder {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 24px;
+      border: 2px solid var(--brand-gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--brand-gold);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--brand-cream);
+      margin-bottom: 8px;
+      letter-spacing: 0.05em;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: var(--brand-gold);
+      margin-bottom: 16px;
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: var(--brand-gold);
+      margin: 0 auto;
+      opacity: 0.5;
+    }
+
+    /* Content */
+    .content {
+      padding: 40px;
+    }
+
+    .section {
+      margin-bottom: 32px;
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(196, 165, 116, 0.15);
+    }
+
+    .section-icon {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--brand-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--brand-cream);
+    }
+
+    .gold-text {
+      color: var(--brand-gold);
+    }
+
+    /* Table */
+    .table {
+      width: 100%;
+    }
+
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr 0.8fr;
+      gap: 16px;
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(196, 165, 116, 0.08);
+      align-items: center;
+    }
+
+    .table-row:last-child {
+      border-bottom: none;
+    }
+
+    .table-row:hover {
+      background: rgba(196, 165, 116, 0.03);
+    }
+
+    .table-header {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: rgba(245, 240, 232, 0.4);
+      font-weight: 500;
+      background: rgba(196, 165, 116, 0.05);
+    }
+
+    .instrument {
+      font-weight: 500;
+      color: var(--brand-cream);
+    }
+
+    .microphone {
+      color: var(--brand-gold-light);
+      font-size: 14px;
+    }
+
+    .quantity {
+      text-align: center;
+      color: rgba(245, 240, 232, 0.6);
+      font-size: 13px;
+    }
+
+    /* Footer section */
+    .footer-section {
+      margin-top: 40px;
+      padding: 24px;
+      background: rgba(196, 165, 116, 0.05);
+      border: 1px solid rgba(196, 165, 116, 0.15);
+      text-align: center;
+    }
+
+    .footer-section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      color: var(--brand-cream);
+      margin-bottom: 12px;
+    }
+
+    .footer-value {
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--brand-gold);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .footer-label {
+      font-size: 12px;
+      color: rgba(245, 240, 232, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 4px;
+    }
+
+    /* Page footer */
+    .page-footer {
+      text-align: center;
+      padding: 24px 40px;
+      border-top: 1px solid rgba(196, 165, 116, 0.15);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .contact {
+      font-size: 13px;
+      color: rgba(245, 240, 232, 0.5);
+    }
+
+    .contact a {
+      color: var(--brand-gold);
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      color: var(--brand-gold-light);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-placeholder">LA</div>
+      <p class="subtitle">Fiche Technique</p>
+      <h1>Sound Patch</h1>
+      <div class="divider"></div>
+    </header>
+
+    <!-- Content -->
+    <main class="content">
+      <!-- Batterie -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-icon">🥁</div>
+          <h2>Batterie</h2>
+        </div>
+        <div class="table">
+          <div class="table-row table-header">
+            <span>Source</span>
+            <span>Microphone</span>
+            <span>Qty</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Kick</span>
+            <span class="microphone">Shure Beta 52 + Beta 91</span>
+            <span class="quantity">2</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Snare Top</span>
+            <span class="microphone">Shure SM 57</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Snare Bottom</span>
+            <span class="microphone">Shure SM 57</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Tom Basse</span>
+            <span class="microphone">Audix D4</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Toms</span>
+            <span class="microphone">Audix D2</span>
+            <span class="quantity">2</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Hi-Hat</span>
+            <span class="microphone">Rode NT5</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Cymbales</span>
+            <span class="microphone">Neumann KM 184</span>
+            <span class="quantity">2</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Percussions -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-icon">🪘</div>
+          <h2>Percussions</h2>
+        </div>
+        <div class="table">
+          <div class="table-row table-header">
+            <span>Source</span>
+            <span>Microphone</span>
+            <span>Qty</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Congas</span>
+            <span class="microphone">Shure SM 57</span>
+            <span class="quantity">2</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Bongos</span>
+            <span class="microphone">Neumann KM 184</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Ambiance</span>
+            <span class="microphone">Rode NT5</span>
+            <span class="quantity">1</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instruments -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-icon">🎹</div>
+          <h2>Instruments</h2>
+        </div>
+        <div class="table">
+          <div class="table-row table-header">
+            <span>Source</span>
+            <span>Microphone / DI</span>
+            <span>Qty</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Clavier</span>
+            <span class="microphone">DI Palmer (Stereo)</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Guitare Ampli</span>
+            <span class="microphone">Sennheiser e906</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Guitare Acoustique</span>
+            <span class="microphone">DI BSS (Mono)</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Basse DI</span>
+            <span class="microphone">DI BSS (Mono)</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Basse Ampli</span>
+            <span class="microphone">Audix D6</span>
+            <span class="quantity">1</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cuivres -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-icon">🎷</div>
+          <h2>Cuivres</h2>
+        </div>
+        <div class="table">
+          <div class="table-row table-header">
+            <span>Source</span>
+            <span>Microphone</span>
+            <span>Qty</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Saxophone Tenor</span>
+            <span class="microphone">DPA 4099</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Saxophone Alto</span>
+            <span class="microphone">DPA 4099</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Trombone</span>
+            <span class="microphone">Pastille perso</span>
+            <span class="quantity">1</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Voix -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-icon">🎤</div>
+          <h2>Voix</h2>
+        </div>
+        <div class="table">
+          <div class="table-row table-header">
+            <span>Source</span>
+            <span>Microphone</span>
+            <span>Qty</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Flute</span>
+            <span class="microphone">Shure SM 58</span>
+            <span class="quantity">1</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Choeurs</span>
+            <span class="microphone">Shure SM 58</span>
+            <span class="quantity">2</span>
+          </div>
+          <div class="table-row">
+            <span class="instrument">Lead Vocal</span>
+            <span class="microphone">Shure Beta 58 (filaire)</span>
+            <span class="quantity">1</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wedges -->
+      <div class="footer-section">
+        <h3>Retours de scène</h3>
+        <div class="footer-value">11/12</div>
+        <p class="footer-label">Wedges</p>
+      </div>
+    </main>
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+      <p class="contact">
+        Contact : <a href="mailto:littlearethaband@gmail.com">littlearethaband@gmail.com</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

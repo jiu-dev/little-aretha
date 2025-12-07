@@ -1,33 +1,46 @@
-import { NsKey } from '@common/enums/NsKey';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-const translationFiles = import.meta.glob('../public/locales/**/*.json', {
-  eager: true,
-});
-const resources: Record<string, Record<string, unknown>> = {};
+import fr from './i18n/fr.json';
+import en from './i18n/en.json';
+import es from './i18n/es.json';
 
-Object.entries(translationFiles).forEach(([path, module]) => {
-  const matches = path.match(/\/locales\/(\w+)\/(\w+)\.json$/);
-  if (matches) {
-    const [, lang, namespace] = matches;
-    if (!resources[lang]) {
-      resources[lang] = {};
-    }
-    resources[lang][namespace] = (module as { default: unknown }).default;
+const STORAGE_KEY = 'little-aretha-language';
+
+// Get saved language or default to French
+const getSavedLanguage = (): string => {
+  if (typeof window !== 'undefined') {
+    return localStorage.getItem(STORAGE_KEY) || 'fr';
   }
-});
+  return 'fr';
+};
 
 i18n.use(initReactI18next).init({
-  fallbackLng: 'en',
-  supportedLngs: ['en', 'fr'],
-  defaultNS: NsKey.Common,
-  ns: Object.values(NsKey),
-  debug: false,
+  resources: {
+    fr: { translation: fr },
+    en: { translation: en },
+    es: { translation: es },
+  },
+  lng: getSavedLanguage(),
+  fallbackLng: 'fr',
   interpolation: {
     escapeValue: false,
   },
-  resources,
+});
+
+// Save language preference when it changes
+i18n.on('languageChanged', (lng) => {
+  if (typeof window !== 'undefined') {
+    localStorage.setItem(STORAGE_KEY, lng);
+  }
 });
 
 export default i18n;
+
+export const languages = [
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+] as const;
+
+export type LanguageCode = (typeof languages)[number]['code'];

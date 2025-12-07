@@ -1,1 +1,1 @@
-// Core routes exports
+export * from '../router';

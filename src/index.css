@@ -1,1 +1,31 @@
 @import 'tailwindcss';
+
+@theme {
+  /* Palette luxe inspirée du logo */
+  --color-brand-dark: #1a1612;
+  --color-brand-darker: #12100d;
+  --color-brand-gold: #c4a574;
+  --color-brand-gold-light: #d4ba8a;
+  --color-brand-gold-dark: #a68b5b;
+  --color-brand-cream: #f5f0e8;
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-brand-darker);
+    color: var(--color-brand-cream);
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-gold);
+    color: var(--color-brand-dark);
+  }
+}
