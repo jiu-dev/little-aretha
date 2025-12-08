@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
-import bgImage from '@/assets/images/la-team-2.jpeg';
+import bgImage from '@/assets/images/team-public.jpeg';
 
 export const CtaSection = () => {
   const { t } = useTranslation();

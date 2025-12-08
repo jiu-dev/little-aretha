@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "biography": "Biography",
+    "team": "The Team",
     "technical": "Technical",
     "contact": "Contact"
   },
@@ -10,14 +11,14 @@
       "subtitle": "Tribute to the Queen of Soul",
       "title1": "Little",
       "title2": "Aretha",
-      "description": "A vibrant tribute to the Queen of Soul, carried by 11 passionate musicians and contagious energy.",
+      "description": "A vibrant tribute to the Queen of Soul, carried by 10 passionate musicians, 1 singer and contagious energy.",
       "cta": "Discover the show"
     },
     "intro": {
       "label": "The show",
       "title1": "More than a tribute,",
       "title2": "a celebration",
-      "description1": "Little Aretha is much more than a simple tribute to the Queen of Soul: it's a musical and emotional experience carried by 11 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
+      "description1": "Little Aretha is much more than a simple tribute to the Queen of Soul: it's a musical and emotional experience carried by 10 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
       "description2": "Born from a story of family transmission, Little Aretha pays tribute to Aretha Franklin's immense body of work while bringing a modern, personal and vibrant stage identity.",
       "cta": "Discover our story"
     },
@@ -54,7 +55,7 @@
       "title2": "Project",
       "description1": "Little Aretha is much more than a simple tribute to the Queen of Soul: it's a",
       "highlight1": "musical and emotional experience",
-      "description2": "carried by 11 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
+      "description2": "carried by 10 musicians and backing vocalists, a singer with a radiant personality, an explosive brass section, and an irresistible groove that makes the audience vibrate from the very first notes.",
       "description3": "Born from a",
       "highlight2": "story of family transmission",
       "description4": "– that of Thierry Le Gall (drummer/percussionist) and his son Nolan Le Gall, initiator and co-creator of the project – Little Aretha pays tribute to Aretha Franklin's immense body of work while bringing a modern, personal and vibrant stage identity.",
@@ -134,7 +135,7 @@
       },
       "formation": {
         "label": "Formation",
-        "value": "11 musicians + 1 singer"
+        "value": "10 musicians + 1 singer"
       },
       "stage": {
         "label": "Minimum stage",
@@ -183,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "A vibrant tribute to the Queen of Soul, carried by 11 passionate musicians.",
+    "description": "A vibrant tribute to the Queen of Soul, carried by 10 passionate musicians and 1 singer.",
     "navigation": "Navigation",
     "followUs": "Follow us",
     "contact": "Contact",
@@ -194,5 +195,59 @@
     "learnMore": "Learn more",
     "close": "Close",
     "enlargeImage": "Enlarge image"
+  },
+  "team": {
+    "hero": {
+      "label": "The Team",
+      "title1": "Our",
+      "title2": "Team",
+      "description": "10 passionate musicians and 1 singer dedicated to Soul music"
+    },
+    "leadVocal": {
+      "label": "Lead Vocal",
+      "title": "In the role of Aretha"
+    },
+    "musicians": {
+      "label": "Musicians",
+      "title": "The Band"
+    },
+    "sections": {
+      "label": "Sections",
+      "title": "Brass & Backing Vocals"
+    },
+    "members": {
+      "kimberly": {
+        "name": "Kimberly Marie Louise",
+        "role": "Lead Vocals"
+      },
+      "nolan": {
+        "name": "Nolan Le Gall",
+        "role": "Percussion, guitar & musical arrangement"
+      },
+      "thierry": {
+        "name": "Thierry Le Gall",
+        "role": "Drums & musical arrangement"
+      },
+      "dylan": {
+        "name": "Dylan Braz",
+        "role": "Guitar"
+      },
+      "vincent": {
+        "name": "Vincent Lanvier",
+        "role": "Bass"
+      },
+      "francois": {
+        "name": "François Chatal",
+        "role": "Keyboards"
+      },
+      "brass": {
+        "name": "Bibzo, Oscar Bineau, Thibault Lacourt",
+        "role": "Brass (flute, alto, tenor, trombone)"
+      },
+      "backing": {
+        "name": "Wu'Mee & Jüde",
+        "role": "Backing Vocals"
+      }
+    }
   }
 }

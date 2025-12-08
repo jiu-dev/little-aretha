@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router';
 import { MainLayout } from '@core/layouts';
 import { HomePage } from '@features/home';
 import { BiographyPage } from '@features/biography';
+import { TeamPage } from '@features/team';
 import { TechnicalPage } from '@features/technical';
 import { ContactPage } from '@features/contact';
 
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: 'biographie',
         element: <BiographyPage />,
+      },
+      {
+        path: 'equipe',
+        element: <TeamPage />,
       },
       {
         path: 'technique',

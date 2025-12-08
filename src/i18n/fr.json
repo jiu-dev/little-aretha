@@ -2,6 +2,7 @@
   "nav": {
     "home": "Accueil",
     "biography": "Biographie",
+    "team": "L'équipe",
     "technical": "Technique",
     "contact": "Contact"
   },
@@ -10,14 +11,14 @@
       "subtitle": "Tribute to the Queen of Soul",
       "title1": "Little",
       "title2": "Aretha",
-      "description": "Un hommage vibrant à la Reine de la Soul, porté par 11 musiciens passionnés et une énergie contagieuse.",
+      "description": "Un hommage vibrant à la Reine de la Soul, porté par 10 musiciens passionnés, 1 chanteuse et une énergie contagieuse.",
       "cta": "Découvrir le spectacle"
     },
     "intro": {
       "label": "Le spectacle",
       "title1": "Plus qu'un hommage,",
       "title2": "une célébration",
-      "description1": "Little Aretha, c'est bien plus qu'un simple hommage à la Reine de la Soul : c'est une expérience musicale et émotionnelle portée par 11 musiciens et choristes, une chanteuse à la personnalité rayonnante, une section de cuivres explosive, et un groove irrésistible qui fait vibrer le public dès les premières mesures.",
+      "description1": "Little Aretha, c'est bien plus qu'un simple hommage à la Reine de la Soul : c'est une expérience musicale et émotionnelle portée par 10 musiciens et choristes, une chanteuse à la personnalité rayonnante, une section de cuivres explosive, et un groove irrésistible qui fait vibrer le public dès les premières mesures.",
       "description2": "Né d'une histoire de transmission familiale, Little Aretha rend hommage à l'œuvre immense d'Aretha Franklin tout en apportant une identité scénique moderne, personnelle et vibrante.",
       "cta": "Découvrir notre histoire"
     },
@@ -54,7 +55,7 @@
       "title2": "Projet",
       "description1": "Little Aretha, c'est bien plus qu'un simple hommage à la Reine de la Soul : c'est une",
       "highlight1": "expérience musicale et émotionnelle",
-      "description2": "portée par 11 musiciens et choristes, une chanteuse à la personnalité rayonnante, une section de cuivres explosive, et un groove irrésistible qui fait vibrer le public dès les premières mesures.",
+      "description2": "portée par 10 musiciens et choristes, une chanteuse à la personnalité rayonnante, une section de cuivres explosive, et un groove irrésistible qui fait vibrer le public dès les premières mesures.",
       "description3": "Né d'une",
       "highlight2": "histoire de transmission familiale",
       "description4": "– celle de Thierry Le Gall (batteur/percussionniste) et de son fils Nolan Le Gall, initiateur et co-créateur du projet – Little Aretha rend hommage à l'œuvre immense d'Aretha Franklin tout en apportant une identité scénique moderne, personnelle et vibrante.",
@@ -134,7 +135,7 @@
       },
       "formation": {
         "label": "Formation",
-        "value": "11 musiciens + 1 chanteuse"
+        "value": "10 musiciens + 1 chanteuse"
       },
       "stage": {
         "label": "Scène minimum",
@@ -183,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Un hommage vibrant à la Reine de la Soul, porté par 11 musiciens passionnés.",
+    "description": "Un hommage vibrant à la Reine de la Soul, porté par 10 musiciens passionnés et 1 chanteuse.",
     "navigation": "Navigation",
     "followUs": "Suivez-nous",
     "contact": "Contact",
@@ -194,5 +195,59 @@
     "learnMore": "En savoir plus",
     "close": "Fermer",
     "enlargeImage": "Agrandir l'image"
+  },
+  "team": {
+    "hero": {
+      "label": "L'équipe",
+      "title1": "Notre",
+      "title2": "Équipe",
+      "description": "10 musiciens passionnés et 1 chanteuse au service de la Soul"
+    },
+    "leadVocal": {
+      "label": "Lead Vocal",
+      "title": "Dans le rôle d'Aretha"
+    },
+    "musicians": {
+      "label": "Musiciens",
+      "title": "Le groupe"
+    },
+    "sections": {
+      "label": "Sections",
+      "title": "Cuivres & Choeurs"
+    },
+    "members": {
+      "kimberly": {
+        "name": "Kimberly Marie Louise",
+        "role": "Lead Vocals"
+      },
+      "nolan": {
+        "name": "Nolan Le Gall",
+        "role": "Percussions, guitare & arrangement musical"
+      },
+      "thierry": {
+        "name": "Thierry Le Gall",
+        "role": "Batterie & arrangement musical"
+      },
+      "dylan": {
+        "name": "Dylan Braz",
+        "role": "Guitare"
+      },
+      "vincent": {
+        "name": "Vincent Lanvier",
+        "role": "Basse"
+      },
+      "francois": {
+        "name": "François Chatal",
+        "role": "Claviers"
+      },
+      "brass": {
+        "name": "Bibzo, Oscar Bineau, Thibault Lacourt",
+        "role": "Cuivres (flûte, alto, ténor, trombone)"
+      },
+      "backing": {
+        "name": "Wu'Mee & Jüde",
+        "role": "Choeurs"
+      }
+    }
   }
 }

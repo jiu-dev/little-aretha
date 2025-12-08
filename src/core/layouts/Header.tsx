@@ -7,6 +7,7 @@ import logo from '@/assets/images/logo.png';
 const navLinks = [
   { path: '/', labelKey: 'nav.home' },
   { path: '/biographie', labelKey: 'nav.biography' },
+  { path: '/equipe', labelKey: 'nav.team' },
   { path: '/technique', labelKey: 'nav.technical' },
   { path: '/contact', labelKey: 'nav.contact' },
 ];
