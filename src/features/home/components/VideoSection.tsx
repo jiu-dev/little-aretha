@@ -19,17 +19,15 @@ export const VideoSection = () => {
           </p>
         </div>
 
-        {/* Video Placeholder - À remplacer par l'embed YouTube réel */}
+        {/* YouTube Video Embed */}
         <div className="aspect-video bg-brand-dark overflow-hidden border border-brand-gold/10">
-          <div className="w-full h-full flex items-center justify-center">
-            <p className="text-brand-cream/30 text-center px-4">
-              Vidéo à venir
-              <br />
-              <span className="text-sm">
-                (Embed YouTube de la captation Dourdan)
-              </span>
-            </p>
-          </div>
+          <iframe
+            src="https://www.youtube.com/embed/CSF9tPB6DUA"
+            title="Little Aretha - Teaser"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="w-full h-full"
+          />
         </div>
       </div>
     </section>
